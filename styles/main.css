@@ -1,0 +1,44 @@
+/*=======Fonts=======*/
+@font-face {
+  font-family: "inter";
+  src: url(../assets/fonts/inter-v8-latin-regular.woff2) format("woff2"),
+    url(../assets/fonts/inter-v8-latin-regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "inter-bold";
+  src: url(../assets/fonts/inter-v8-latin-700.woff2) format("woff2"),
+    url(../assets/fonts/inter-v8-latin-700.woff) format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "lexend-deca";
+  src: url(../assets/fonts/lexend-deca-v15-latin-regular.woff2) format("woff2"),
+    url(../assets/fonts/lexend-deca-v15-latin-regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*=======Variables=======*/
+:root {
+  --main-background-color: #090b1a;
+  --card-background-color: #1b1938;
+  --accent-color: #aa5cdb;
+  --main-heading-color: #ffffff;
+  --main-paragraph-color: hsla(0, 0%, 100%, 0.75);
+  --stat-headings-color: hsla(0, 0%, 100%, 0.6);
+}
+
+/*=======Globals=======*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  background-color: var(--main-background-color);
+}
