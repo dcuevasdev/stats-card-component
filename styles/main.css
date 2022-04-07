@@ -42,3 +42,15 @@ html {
   line-height: 1.5;
   background-color: var(--main-background-color);
 }
+.container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  padding: 2.4rem 0;
+}
+.information {
+  display: grid;
+  width: 90%;
+  max-width: 92rem;
+  margin: 0 auto;
+}
