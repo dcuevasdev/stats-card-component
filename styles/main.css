@@ -51,7 +51,6 @@ html {
 
 /*=======Information=======*/
 .information {
-  display: grid;
   width: 90%;
   max-width: 92rem;
   margin: 0 auto;
@@ -66,7 +65,7 @@ html {
   height: 20rem;
   border-radius: 0.8rem 0.8rem 0 0;
   object-fit: cover;
-  filter: opacity(0.7) drop-shadow(0 0 0 #aa5cdb);
+  filter: opacity(0.6) drop-shadow(0 0 0 #aa5cdb);
 }
 .information__benefits {
   width: 90%;

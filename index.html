@@ -6,6 +6,11 @@
     <title>Stats preview card component</title>
     <link rel="stylesheet" href="./styles/main.css" />
     <link
+      rel="stylesheet"
+      href="./styles/desktop.css"
+      media="screen and (min-width: 800px)"
+    />
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -21,30 +26,32 @@
             alt="people meeting"
           />
         </figure>
-        <div class="information__benefits">
-          <h2 class="information__benefits-title">
-            Get <b class="title__highlight">insights</b> that help your business
-            grow.
-          </h2>
-          <p class="information__benefits-text">
-            Discover the benefits of data analytics and make better decisions
-            regarding revenue, customer experience, and overall efficiency.
-          </p>
-          <div class="information__data">
-            <div class="information__data-info">
-              <p>10K+</p>
-              <small>companies</small>
-            </div>
-            <div class="information__data-info">
-              <p>314</p>
-              <small>templates</small>
-            </div>
-            <div class="information__data-info">
-              <p>12M+</p>
-              <small>queries</small>
+        <section class="information__benefits">
+          <div class="information__benefits-container">
+            <h2 class="information__benefits-title">
+              Get <b class="title__highlight">insights</b> that help your
+              business grow.
+            </h2>
+            <p class="information__benefits-text">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+            <div class="information__data">
+              <div class="information__data-info">
+                <p>10k+</p>
+                <small>companies</small>
+              </div>
+              <div class="information__data-info">
+                <p>314</p>
+                <small>templates</small>
+              </div>
+              <div class="information__data-info">
+                <p>12M+</p>
+                <small>queries</small>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   </body>

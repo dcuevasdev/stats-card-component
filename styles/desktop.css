@@ -1,0 +1,30 @@
+/*=======Information=======*/
+.information {
+  display: flex;
+  align-items: center;
+}
+.information__image {
+  order: 2;
+  height: 100%;
+}
+.information__image img {
+  height: 100%;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.information__benefits {
+  width: 100%;
+  margin-top: 0;
+  text-align: left;
+}
+.information__benefits-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.information__data {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.8rem 0 0;
+}
+.information__benefits-text {
+  font-size: 1.2rem;
+}
